@@ -8,6 +8,7 @@ end
 def match(array)
   array = []
   array.each do |anagram|
+    word.split("").sort == @word.split("").sort
   end
 end
 end
