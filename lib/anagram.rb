@@ -8,6 +8,6 @@ end
 def match(array)
   array = []
   array.each do |anagram|
+  end
 end
-
 end
