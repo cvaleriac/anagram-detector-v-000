@@ -6,12 +6,12 @@ def initialize(word)
 end
 
 def match(array_word)
-  arr = []
+  array = []
   array_word.each do |anagram|
     if anagram.split("").sort == @word.split("").sort
-        arr<< anagram
+        array<< anagram
   end
 end
-arr
+array
 end
 end
