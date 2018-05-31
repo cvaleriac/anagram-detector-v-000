@@ -7,8 +7,9 @@ end
 
 def match(array)
   array = []
-  array.select do |anagram|
-    word.split("").sort == @word.split("").sort
+  array.each do |anagram|
+    if anagram.split("").sort == @word.split("").sort
+        array<< anagram
   end
 end
 end
