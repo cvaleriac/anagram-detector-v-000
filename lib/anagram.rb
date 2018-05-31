@@ -1,5 +1,5 @@
 class Anagram
-anagrams = []
+anagram = []
 
 def initialize(word)
   @word = word
