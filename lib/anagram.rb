@@ -5,9 +5,9 @@ def initialize(word)
   @word = word
 end
 
-def match(array_word)
+def match(array)
   array = []
-  array.each do |anagram|
+  array.select do |anagram|
     word.split("").sort == @word.split("").sort
   end
 end
