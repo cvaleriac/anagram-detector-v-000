@@ -12,5 +12,6 @@ def match(array)
         array<< anagram
   end
 end
+array
 end
 end
